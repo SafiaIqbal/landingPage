@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <header>
+    <img src="landimg/Union.png" alt="" class="logo"><span class="glint">Glint</span>
+    <!-- This part of code belong to the humberger menu -->
+   
+    <div id="navigation">
+      <div id="menu" onclick="onClickMenu()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+      </div>
+      <ul id="nav" class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#places">Place</a></li>
+          <li><a href="#about-us">About us</a></li>
+          <li><a href="#tour">Tour</a></li>
+          <li><a href="#destinations">Destination</a></li>
+          <li><a href="#feedbacks">Feedbacks</a></li>
+          <li><a href="#contacts">Contact</a></li>
+          <li><a href="#blog">Blog</a></li>
+                    <button class="btn2">Book Now<i class="fa fa-paper-plane" aria-hidden="true" id="nav-btn"></i></button>
+          <input type="checkbox" id="toggle-btn" class="toggle-check" >
+          <label for="toggle-btn" class="toggle-btn"><span class="toggle-inner"></span></label>
+      </ul>
+  </div>
+      <!-- mainpage codes -->
+    <nav id="navlink">
+      <ul>
+        <li> <a href="#home">Home</a></li>
+        <li> <a href="#places">Place</a></li>
+        <li> <a href="#about-us">About us</a></li>
+        <li> <a href="#tour">Tour</a></li>
+        <li> <a href="#destinations">Destination</a></li>
+        <li> <a href="#feedbacks">Feedbacks</a></li>
+        <li> <a href="#contacts">Contact</a></li>
+        <li> <a href="#blog">Blog</a></li>
+      </ul>
+      <button class="btn">Book Now<i class="fa fa-paper-plane" aria-hidden="true" id="nav-btn"></i></button>
+  <input type="checkbox" id="toggle-btn" class="toggle-check">
+        <label for="toggle-btn" class="toggle-btn"><span class="toggle-inner"></span></label>
+      </div>
+    </nav>
+  </header>
+  <div class="wrapper">
+  <section id="home">
+    <div class="container">
+      <div class="content">
+        <h1 class="head">Discover the Best Lovely Places</h1>
+   
+        <p class="first">Plan and book your perfect trip with expert advice, travel tips, destination
+          information and inspiration from us.</p>
+ 
+
+        <form>
+          <div class="inputs">
+            <label for="place">Where</label>
+            <input type="text" id="place" placeholder="Center Point, Lo..."> <i class="fas fa-map-marker-alt"></i>
+            <div class="line"></div>
+            <label for="date">Date</label>
+            <input type="text" id="date" name="date" placeholder="Select a date"> <i class="fas fa-calendar-alt"></i>
+            <i class="fas fa-search" id="search"></i>
+
+          </div>
+        </form>
+      </div>
+
+      <div class="image-container">
+        <img src="landimg/propic.png" class="image1" alt="">
+        <div class="image2-cont">
+          <img src="landimg/desert.png" alt="" class="image3">
+          <span class="text">Dubai Moravia</span>
+          <div class="circle-images">
+            <img src="landimg/img1.jpg" alt="" class="one" width="40px" height="40px">
+            <img src="landimg/img2.jpeg" alt="" class="one" width="40px" height="40px">
+            <img src="landimg/img3.jpeg" alt="" class="one" width="40px" height="40px">
+          </div>
+        </div>
+      </div>
+  </section>
+  <section id="places">
+    <h1 class="head2">Catagories</h1>
+    <p class="second">Here are lots of interesting destinations to visit, but don’t be confused—they’re already
+      grouped by category.</p>
+    <div class="trip-images">
+      <span class="img-text">Beach</span>
+      <img src="landimg/sunset.png" alt="" class="two"><span class="img-text">Desert</span>
+      <img src="landimg/p2.png" alt="" class="two"><span class="img-text">Mountain</span>
+      <img src="landimg/mountain.png" alt="" class="two"><span class="img-text">Temple</span>
+      <img src="landimg/temple.png" alt="" class="two"><span class="img-text">Tower</span>
+      <img src="landimg/tower.png" alt="" class="two"><span class="img-text">Pyramid</span>
+      <img src="landimg/Pyramid.png" alt="" class="two">
+    </div>
+  </section>
+  <section id="about-us">
+    <div class="image4"><img src="landimg/tourist.png" alt="" class="yellow"></div>
+    <div class="details">
+      <span class="exp">Our Experience</span>
+      <h1 class="three">Our Stories Have Adventures</h1>
+      <p class="third-paragraph">We are experienced in bringing adventures to stay their journey, with all outdoor
+        destinations in the world
+        as our specialties. Start your adventure now! Nature has already called you!</p>
+      <div class="section">
+        <div class="num"><strong class="notition">10K+</strong><br><span class="texts">Succes Journey</span></div>
+        <div class="num"><strong class="notition">13K+</strong><br><span class="texts">Awards Winning</span></div>
+        <div class="num"><strong class="notition">15K+</strong><br><span class="texts">Years Of Experience</span></div>
+      </div>
+    </div>
+  </section>
+  <section id="tour">
+    <h1 class="text-head">Find Popular Destination</h1>
+    <div class="booking">
+      <div class="div">
+        <img src="landimg/sun.png" alt="" class="tourist">
+        <strong class="text1">Mountain Hiking Tour</strong>
+        <span class="text2">Mountain Hiking Tour</span>
+        <div class="btn-price"><span class="price"><b>$89</b>/<small>person</small></span>
+          <button class="book">Book Now</button>
+        </div>
+      </div>
+      <div class="div">
+        <img src="landimg/man.png" alt="" class="tourist">
+        <strong class="text1">Machu Picchu, Peru</strong>
+        <span class="text2">Machu Picchu, Peru</span>
+        <div class="btn-price"> <span class="price"><b>$99</b>/<small>person</small></span>
+          <button class="book">Book Now</button>
+        </div>
+      </div>
+      <div class="div">
+        <img src="landimg/woman.png" alt="" class="tourist">
+        <strong class="text1"> Arizona Canyon </strong>
+        <span class="text2"><br>The Grand Canyon, Arizona</span>
+        <div class="btn-price"><span class="price"><b>$70</b>/<small>person</small></span>
+          <button class="book">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="destinations">
+    <div class="places">
+      <h1 class="head3">Top Destinations</h1>
+      <span class="info">Sost Brilliant reasons Entrada should be your one-stop-shop!</span>
+      <div class="buttons"><button class="countries-selected">London</button>
+        <button class="countries">Canada</button>
+        <button class="countries">Singapore</button>
+        <button class="countries">Italy</button>
+        <button class="countries">China</button> </button>
+        <div class="cities">
+          <img src="landimg/pp1.png" alt="" class="city city1">
+          <img src="landimg/pp3.png" alt="" class="city city2">
+          <img src="landimg/pp4.png" alt="" class="city city3">
+          <img src="landimg/pp2.png" alt="" class="city city4">
+          <img src="landimg/pp5.png" alt="" class="city city5">
+          <img src="landimg/pp6.png" alt="" class="city1 city6">
+        </div>
+
+      </div>
+  </section>
+
+  <section id="feedbacks">
+    <div class="img-cont"><img src="landimg/pic6.png" alt="" class="review-pic"></div>
+    <div class="contents">
+      <h1 class="head4">A customer said about us:</h1>
+      <div class="review">
+        <span class="feedback">Salty helped me a lot in finding the best place for
+          our first outdoor adventure trip. They responded
+          very quickly and gave me a detailed account of the place—
+          its history, as well as its best features.</span><br>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i><br>
+        <strong class="cutomer-name">Yasreb Asifi</strong><br>
+        <strong class="job">Enterpreneur</strong>
+      </div>
+    </div>
+  </section>
+  <section id="contacts">
+    <div class="contact">
+      <h1 class="sign">Sign up to our newsletter</h1>
+      <span class="cont-text">Recieve latest news, update, and many other things every week. </span>
+      <div class="email-input">
+        <input type="email" class="email" placeholder="Enter your email Address"><i class="fa fa-paper-plane"
+          id="plane"></i>
+      </div>
+    </div>
+  </section>
+  <section id="blog">
+    <div class="social">
+      <img src="landimg/Union.png" alt="" class="image"><span class="glint1">Glint</span><br>
+      <span class="short-info">Enjoy the touring with Glint</span>
+      <div class="icons">
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/sauda3694?igsh=dnBxa3h4b3BweXhl" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/iqbalsafia" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="blogs">
+      <div class="source1">
+        <h2 class="h2">Resources</h2>
+        <span class="source">Download</span>
+        <span class="source">Help Center</span>
+        <span class="source">Guide Book</span>
+        <span class="source">App Directory</span>
+      </div>
+      <div class="sources2">
+        <h2 class="h2">Travellers</h2>
+        <span class="source">Why Travellers</span>
+        <span class="source">Enterprice</span>
+        <span class="source">Customer Stories</span>
+        <span class="source">Instagram post</span>
+      </div>
+      <div class="sources3">
+        <h2 class="h2">Company</h2>
+        <span class="source">Travelling</span>
+        <span class="source">About Locato</span>
+        <span class="source">Success</span>
+        <span class="source">Instagram post</span>
+      </div>
+      <div class="sources4">
+        <h2 class="h2">Get App</h2>
+        <a href="#"><span class="source link">App Store</span></a>
+        <a href="#"> <span class="source link">Google Play Store</span></a>
+
+      </div>
+
+    </div>
+  </section>
+</div>
+  <hr>
+  <footer>This is a <span class="footers"> FAKE </span>Landing page desigend by <a
+      href="https://www.linkedin.com/in/maryamsherzai9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      class="linkedin footers" target="_blank">Maryam Sherzai</a>
+    in <a href="https://www.figma.com/design/8xIJg3zq2YEZQqN2yrcIwt/user-portfolio?node-id=0-1&t=K5kMlXEAwv5wC1U9-1"
+      class="figma footers" target="_blank">Figma</a>
+    and Coded by <a href="https://www.linkedin.com/in/iqbalsafia" class="my footers" target="_blank">Safia Iqbal</a>
+    in <a href="https://github.com/SafiaIqbal/landing_shecodes.git" class="github footers" target="_blank">Git
+      Hub</a> and hosted in <a href="https://charming-palmier-7c80e5.netlify.app/" class="netlify footers"
+      target="_blank">Netlify</a>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
